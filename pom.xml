@@ -19,6 +19,12 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+    <scm>
+        <!-- @todo Change this to your git scm in order to run mvn release goals. -->
+        <developerConnection>scm:git:git@github.com:bhamail/jenkins-a</developerConnection>
+    </scm>
+
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
